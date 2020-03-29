@@ -16,7 +16,7 @@ const Home = ({
 }) => {
   return (
     <div className="home-container">
-      <h2>Search Books</h2>
+      <h1>Search Books</h1>
       <form className="home-form" onSubmit={onSubmit}>
         <div className="form-left">
           <label>

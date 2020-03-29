@@ -15,7 +15,7 @@ input[type=button], input[type=submit], input[type=reset] {
   border-radius: 0.3em;
 }
 
-.home-container h2, p {
+.home-container h1, p {
   font-family: 'Lato', sans-serif;
 }
 
@@ -55,4 +55,21 @@ input[type=button], input[type=submit], input[type=reset] {
   padding: 0 10em;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .home-container .home-form  {
+    flex-direction: column;
+  }
+
+  .home-container .books {
+    margin-top: 4em;
+    padding: 0 0.3em;
+  }
+
+
+  .home-container .search-bar {
+    margin-bottom: 1em;
+  }
 }

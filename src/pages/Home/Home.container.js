@@ -49,7 +49,6 @@ class HomeContainer extends React.Component {
           results = [...books[0]]
         }
         this.setState({results: results});
-        console.log(data)
       })
       .catch((error) => {
         console.log(error)

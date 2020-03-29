@@ -1,13 +1,13 @@
 .home-container .results {
-  position: absolute;
-  border: 1px solid #9b9b9b;
+  border: 1px solid #e8e8e8;
   border-radius: 0.3em;
   position: absolute;
   width: 24.5em;
+  background: white;
 }
 
 .home-container .result {
-  border-bottom: 1px solid #9b9b9b;
+  border-bottom: 1px solid #e8e8e8;
   text-align: start;
   margin: 0;
   padding: 1em;
