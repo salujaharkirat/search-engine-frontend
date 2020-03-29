@@ -1,0 +1,14 @@
+.home-container .results {
+  position: absolute;
+  border: 1px solid #9b9b9b;
+  border-radius: 0.3em;
+  position: absolute;
+  width: 24.5em;
+}
+
+.home-container .result {
+  border-bottom: 1px solid #9b9b9b;
+  text-align: start;
+  margin: 0;
+  padding: 1em;
+}

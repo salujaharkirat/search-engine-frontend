@@ -1,0 +1,58 @@
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+  font-size: 0.9em;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0.3em;
+}
+
+.home-container h2, p {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.home-container .search-bar {
+  font-size: 1.1em;
+  padding: 0em 1.3em;
+  width: 20em;
+  height: 2.5em;
+  margin: 0 auto;
+  border:solid 1px #ccc;
+  border-radius: 0.3em;
+}
+
+.home-container .home-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container .form-left {
+  display: flex;
+}
+
+
+.home-container p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.home-container .books {
+  margin-top: 10em;
+  display: flex;
+  padding: 0 10em;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
