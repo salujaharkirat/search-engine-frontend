@@ -3,7 +3,8 @@ import axios from "axios";
 
 import Home from "./Home";
 
-const API_END_POINT = "http://localhost:8000/api/v0/books/";
+import {API_END_POINT} from "api";
+
 
 class HomeContainer extends React.Component {
   state = {

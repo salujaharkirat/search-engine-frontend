@@ -2,6 +2,8 @@ import React from "react";
 import {shallow} from "enzyme";
 import MockAdapter from "axios-mock-adapter";
 import axios from "axios";
+import {API_END_POINT} from "api";
+
 
 import Home from "../Home.container";
 
@@ -32,7 +34,6 @@ describe("<HomeContainer />", () => {
     const wrapper = shallow(<Home />);
     const instance = wrapper.instance();
     const mockAdapter = new MockAdapter(axios);
-    const url = "http://localhost:8000/api/v0/books/";
     const searchResults =  [
       [
         {
@@ -65,7 +66,7 @@ describe("<HomeContainer />", () => {
       }
     ];
 
-    mockAdapter.onPost(url).reply(() => {
+    mockAdapter.onPost(API_END_POINT).reply(() => {
       return [200, {
         books: searchResults,
         status: "OK"
