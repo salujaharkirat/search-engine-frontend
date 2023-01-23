@@ -7,6 +7,8 @@ import {API_END_POINT} from "api";
 
 import Home from "../Home.container";
 
+
+
 describe("<HomeContainer />", () => {
   it("should render default component", () => {
     const wrapper = shallow(<Home />);
