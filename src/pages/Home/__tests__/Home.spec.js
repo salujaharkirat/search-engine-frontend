@@ -16,6 +16,7 @@ describe("<Home />", () => {
       books: [],
       onBookSelect: () => {}
     }
+    
     const wrapper = shallow(<Home {...props} />);
     expect(wrapper.length).toBe(1);
   })
