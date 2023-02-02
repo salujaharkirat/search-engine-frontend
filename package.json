@@ -5,7 +5,8 @@
   "devDependencies": {
     "axios-mock-adapter": "^1.17.0",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1"
+    "enzyme-adapter-react-16": "^1.15.1",
+    "husky": "^8.0.3"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -20,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
